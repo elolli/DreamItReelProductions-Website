@@ -1,0 +1,147 @@
+#Wedding-header {
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.17);
+  -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.17);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.17);
+  width: 95%;
+  position: relative;
+  margin: auto;
+  display: block;
+  margin-bottom:10px;
+}
+
+#Wedding-cover-image {
+  position: relative;
+  border: 15px solid white;
+  background-color: white;
+  overflow: hidden;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#Wedding-cover-image > img {
+  width: 100%;
+}
+
+#title-container {
+    padding-bottom: 13px;
+    padding-bottom: 13px;
+    position: relative;
+    padding: 5px 10px 20px 0;
+    background-color: white;
+    text-align: center !important;
+  }
+
+#wedding-title {
+    margin: 6px 0 8px 0;
+    line-height: 1;
+    padding:0;
+    text-rendering:optimizeLegibility;
+    color: #ffffff;
+    font-family: Great Vibes;
+    font-size: 100px;
+    font-style: normal;
+        margin-top: 30px;
+  }
+
+  #wedding-date-location {
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+#wedding-date, #wedding-location {
+    display: inline;
+}
+
+h2#wedding-date-location, #wedding-body, h2#wedding-location {
+    color: #ffffff;
+    font-family: Great Vibes;
+    font-size: 32px;
+    font-style: normal;
+    margin-bottom:0px !important;
+  margin-top:0px !important;
+}
+
+#wedding-background {
+  min-height: 200px;
+  margin-bottom: 100px;
+}
+
+#wedding-background {
+    background-image: url("images/background-wedding.png");
+    background-repeat: no-repeat;
+}
+
+
+#wedding-form_label {
+    font-family: "Times New Roman";
+}
+
+#wedding-hashtag {
+    font-family: Great Vibes;
+padding-bottom: 30px;
+}
+
+
+.fancy {
+  line-height: 0.2;
+  text-align: center;
+  margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.fancy span {
+  display: inline-block;
+  position: relative;  
+}
+.fancy span:before,
+.fancy span:after {
+  content: "";
+  position: absolute;
+  height: 8px;
+  border-bottom: 1px solid #24b9ca;
+  top: 0;
+  width: 600px;
+}
+.fancy span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+.fancy span:after {
+  left: 100%;
+  margin-left: 15px;
+}
+
+.subtitle span {
+  font-size:24px;
+  font-family: Raleway;
+  font-weight: 300;
+  color: #24b9ca;
+}
+
+#wedding-form_label {
+  margin-top: 80px;
+  font-family: Raleway;
+  font-size: 19px;
+  font-weight: 500;
+  color: #24b9ca;
+}
+
+#la-wrapper > div.lavish_header.header_two
+{display:none;}
+
+#la-wrapper > div.lavish_footer {display: none;}
+#writing {
+  background-color:#24b9ca;
+opacity: 0.5;
+width:40%;
+height:100%;
+position:absolute;
+right:0;
+  }

@@ -1,0 +1,141 @@
+/*
+Theme Name: Lavish Child
+Description: Child theme for the Lavish
+Author: Elise Lawley
+Template: lavish
+*/
+
+/*
+CSS Style Structure
+- General
+- Preloader
+- Navigation
+- Header
+- Vision/Mission
+- Blog Page
+- Post Page
+- Call-to-action 
+- Social Connect
+- Footer Section
+=======================*/
+/***********************
+******* General ********
+***********************/
+
+.navmenu .current_page_item > a, .navmenu .current_page_ancestor > a, .navmenu .current-menu-item > a, .navmenu .current-menu-ancestor > a {
+	background-color: #00B08C;
+}
+
+
+ul.navmenu > li > a:hover, ul.navmenu > li > a:focus, ul.navmenu > li > a:active, ul.navmenu > li:hover {
+	background-color: #31b1c2 !important;
+}
+
+aside#la-banner {display: none !important;}
+
+.lavish_header .lavish_head {
+    background-color: #474848;
+}
+article#post-2 {margin-top:100px;}
+h2 span{
+	font-size:40px;
+}
+
+div#contact > h2 > span {
+	color: #27b1c2 !important;
+	border: 3px solid #f7f5dc;
+    background-color: #f7f5dc;
+	padding:10px;
+}
+
+div#contact {
+    text-align: center;
+}
+
+div#referral {
+text-align: center;
+}
+
+.fullwidth {
+	background-color: #18b1c3;
+	padding: 40px;
+	position: relative;
+    width: 110vw;
+    left: calc(-50vw + 50%);
+}
+
+a {color: #d95757;}
+
+input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required, textarea{
+	background-color: transparent;
+	border: 2px solid #f7f5dc;
+	margin-bottom:20px;
+}
+
+form.wpcf7-form{
+	display: inline-block;
+	margin-top: 35px;
+}
+
+.entry-content p {
+	color: #484848;
+	font-weight: normal;
+	text-align: left;
+}
+
+
+
+input[type = "submit"] {
+	    background-color: #d95757;
+    padding: 10px 20px;
+    color: #f7f5dd;
+    border: none;
+    font-size: 20px;
+}
+textarea.wpcf7-form-control.wpcf7-textarea {width:100%}
+
+table td {padding: 0px 10px;}
+h2 {
+	margin-bottom: 45px;
+	margin-top:45px;
+}
+.boxed {
+	border: 3px solid;
+	padding: 6px 11px;
+	margin-bottom:20px;
+}
+
+
+a.toggle_button_lavish_menu {
+	    color: #30ccd8;
+}
+
+a.toggle_button_lavish_menu:focus, a.toggle_button_lavish_menu:active, a.toggle_button_lavish_menu:hover {color: #29b2c4}
+
+.social_icons a img {
+margin-right: 10px;
+}
+
+.social_icons: {
+    float: left;
+clear: none;
+width: 205px !important;
+}
+
+.copyright p {
+    font-size: 15px;
+}
+
+div.copyright {margin-top: 20px}
+
+.container div {border-bottom: 0px !important}
+
+span.col-sm-4.social_icons {
+	margin-top:-10%;
+	margin-left: -25px;
+}
+
+.lavish_header.header_two {
+	position: relative ;
+}
+

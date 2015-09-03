@@ -1,0 +1,92 @@
+#Wedding-header {
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.17);
+  -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.17);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.17);
+  width: 90%;
+  position: relative;
+  margin: auto;
+  display: block;
+}
+
+#Wedding-cover-image {
+  position: relative;
+  border: 15px solid white;
+  background-color: white;
+  overflow: hidden;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-top: 100px;
+}
+
+#Wedding-cover-image > img {
+	width: 100%;
+}
+
+#title-container {
+    padding-bottom: 13px;
+    padding-bottom: 13px;
+    position: relative;
+    padding: 5px 10px 20px 0;
+    background-color: white;
+    text-align: center !important;
+  }
+
+#wedding-title {
+    margin: 6px 0 8px 0;
+    line-height: 1;
+    padding:0;
+    text-rendering:optimizeLegibility;
+    color: #000000;
+    font-family: Great Vibes;
+    font-size: 60px;
+    font-style: normal;
+        margin-top: 30px;
+  }
+
+  #wedding-date-location {
+    color: #000000;
+    font-family: "Times New Roman";
+    font-size: 16px;
+    font-style: normal;
+}
+
+
+#wedding-date, #wedding-location {
+    display: inline;
+}
+
+h2#wedding-date-location, #wedding-body, h2#wedding-location {
+    color: #000000;
+    font-family: Great Vibes;
+    font-size: 32px;
+    font-style: normal;
+    margin-bottom:0px !important;
+	margin-top:0px !important;
+}
+
+#wedding-background {
+  min-height: 200px;
+  margin-bottom: 100px;
+}
+
+#wedding-body {
+    background-image: url("images/background-wedding.png");
+    background-repeat: no-repeat;
+
+}
+
+
+#wedding-form_label {
+    font-family: "Times New Roman";
+}
+
+#wedding-hashtag {
+    font-family: Great Vibes;
+padding-bottom: 30px;
+    border-bottom: 1px solid #DBD7D7;
+}
+
+

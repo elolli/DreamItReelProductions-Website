@@ -1,0 +1,8 @@
+div#cover-image {
+	position: relative;
+    border: 15px solid white;
+    padding-bottom: 50%;
+    background-color: white;
+    overflow: hidden;
+    text-align: center !important;
+}
